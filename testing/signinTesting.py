@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 
 browser = webdriver.Firefox()
 
-browser.get('http://localhost:49160/')
+browser.get('http://localhost:27017/')
 assert 'Whitter' in browser.title
 
 signup_username = browser.find_element_by_name('username')
